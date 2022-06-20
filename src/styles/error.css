@@ -1,0 +1,28 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+.error-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error-div h1 {
+    color: red;
+    margin-bottom: 0;
+}
+
+.error-div p {
+    font-size: 18px;
+    color: #EEEEEE;
+}
