@@ -5,7 +5,7 @@ import Buscador from './Buscador'
 const Cargando = () => {
   return (
     <>
-    <div className="contenedor">
+    <div className="contenedorSpin">
     <div className="cargar"></div>
     <p>Cargando...</p>
     </div>
