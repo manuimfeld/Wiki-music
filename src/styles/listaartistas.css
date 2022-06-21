@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+/* Componente Inicio.js.js */
+
 .Wiki-music {
   width: 100%;
   margin-top: 150px;
@@ -8,6 +10,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  color: #EEEEEE;
 }
 
 .Wiki-music h2 {
@@ -57,11 +60,7 @@ article p {
   flex-direction: row-reverse;
 }
 
-main {
-    min-height: 87vh;
-    background: #393E46;
-    color: #EEEEEE;
-}
+/* Componente ListaArtistas.js */
 
 ul {
     list-style: none;
