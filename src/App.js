@@ -5,6 +5,7 @@ import Inicio from './componentes/Inicio';
 
 function App() {
 
+  /* ESTADOS */
   const [buscar, setBuscar] = useState('')
   const [artistas, setArtistas] = useState([])
   const [errores, setErrores] = useState(false)

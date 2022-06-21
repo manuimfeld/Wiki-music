@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/buscador.css'
 import Logo from './Logo'
 
-  const Buscador = ({buscar, setBuscar, artistas, setArtistas, setErrores, setCargando}) => {
+  const Buscador = ({buscar, setBuscar, setArtistas, setErrores, setCargando}) => {
 
   const fetchApi = (e) => {
     let url = "https://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&limit=10&artist="+ e +"&api_key=7cf6752f52b73ffc2eebf3f0c51dd36c&format=json"

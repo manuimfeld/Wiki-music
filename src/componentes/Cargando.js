@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/cargando.css'
-import Buscador from './Buscador'
 
 const Cargando = () => {
   return (

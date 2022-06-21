@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styles/buscador.css'
 
-const refrescar = () => {
+const refrescarPagina = () => {
   window.location.reload();
 }
 
 const Logo = () => {
   return (
-    <h1 className='navBar-logo' onClick={() => {refrescar()}}>Wiki-Music</h1>
+    <h1 className='navBar-logo' onClick={() => {refrescarPagina()}}>Wiki-Music</h1>
   )
 }
 
